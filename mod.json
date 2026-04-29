@@ -1,17 +1,20 @@
 {
-	"geode": "$GEODE_VERSION",
-	"gd": {
-		"win": "2.2081",
-		"android": "2.2081",
-		"mac": "2.2081",
-		"ios": "2.2081"
-	},
-	"id": "$MOD_ID",
-	"name": "$MOD_NAME",
-	"version": "$MOD_VERSION",
-	"developer": "$MOD_DEVELOPER",
-	"description": "$MOD_DESCRIPTION",
-	"dependencies": {
-		"geode.node-ids": ">=v1.23.3"
-	}
+  "geode": "3.0.0",
+  "version": "v1.0.0",
+  "id": "yourname.auto_keybind",
+  "name": "Auto Keybind",
+  "developer": "Your Name",
+  "description": "Automatically simulates a keypress at a specific percentage.",
+  "settings": {
+    "enable-mod": {
+      "name": "Enable Auto Keybind",
+      "type": "bool",
+      "default": true
+    },
+    "percentage": {
+      "name": "Trigger Percentage",
+      "type": "int",
+      "default": 70
+    }
+  }
 }
